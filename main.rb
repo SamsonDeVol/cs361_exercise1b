@@ -9,21 +9,21 @@ class Bike
     weight_change_increment = 10
   
     def initialize(input_height, input_weight, input_color)
-      @height = input_height
-      @weight = input_weight
-      @color = input_color
+      @bike_height = input_height
+      @bike_weight = input_weight
+      @bike_color = input_color
     end
   
     def retreive_color
-      @color
+      @bike_color
     end
   
     def retreive_height
-      @height
+      @bike_height
     end
   
     def change_weight
-      @weight -= weight_change_increment
+      @bike_weight -= weight_change_increment
     end
   end
   
